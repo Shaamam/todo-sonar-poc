@@ -68,10 +68,6 @@ sonar {
             properties {
                 property "sonar.projectKey", "Shaamam_todo-sonar-poc"
                 property "sonar.organization", "awesome-orgs"
-                property "sonar.projectName", "todo-sonar-poc"
-                property "sonar.host.url", "https://sonarcloud.io"
-                property "sonar.coverage.jacoco.xmlReportPaths", "${project.buildDir}/reports/jacoco/test/jacocoTestReport.xml"
-                property "sonar.java.coveragePlugin", "jacoco"
                 property "sonar.coverage.exclusions", "**/build/**, **/gradle/**, **/*.gradle, **/*.gradle.kts, **/gradlew, **/gradlew.bat"
             }
         }
