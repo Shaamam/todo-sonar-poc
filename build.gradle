@@ -64,12 +64,8 @@ jacocoTestCoverageVerification {
 
 sonar {
     properties {
-        sonar {
-            properties {
-                property "sonar.projectKey", "Shaamam_todo-sonar-poc"
-                property "sonar.organization", "awesome-orgs"
-                property "sonar.coverage.exclusions", "**/build/**, **/gradle/**, **/*.gradle, **/*.gradle.kts, **/gradlew, **/gradlew.bat"
-            }
-        }
+        property "sonar.projectKey", "Shaamam_todo-sonar-poc"
+        property "sonar.organization", "awesome-orgs"
+        property "sonar.coverage.exclusions", "**/build/**, **/gradle/**, **/*.gradle, **/*.gradle.kts, **/gradlew, **/gradlew.bat"
     }
 }
