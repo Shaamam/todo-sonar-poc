@@ -10,6 +10,8 @@ A Spring Boot Todo application with comprehensive unit and integration tests for
 - **JaCoCo integration** for code coverage reports
 - **SonarQube ready** for code quality analysis
 
+
+
 ## Project Structure
 
 ```
